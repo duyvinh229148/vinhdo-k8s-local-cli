@@ -1,11 +1,11 @@
 module.exports = {
   cluster: {
-    name: "vinhdo",
+    name: 'vinhdo',
   },
   helmRepositories: [
     {
-      name: "bitnami",
-      url: "https://charts.bitnami.com/bitnami",
+      name: 'bitnami',
+      url: 'https://charts.bitnami.com/bitnami',
     },
   ],
 };
