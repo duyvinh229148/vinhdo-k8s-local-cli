@@ -22,6 +22,7 @@
     "yargs": "^17.6.2"
   },
   "devDependencies": {
+    "@types/yargs": "^17.0.19",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",

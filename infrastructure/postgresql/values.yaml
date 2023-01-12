@@ -1,0 +1,9 @@
+auth:
+  enablePostgresUser: true
+  postgresPassword: yourrentals2021
+  username: yourrentals
+  password: yourrentals2021
+  database: core
+
+image:
+  tag: 13.7.0-debian-10-r22
