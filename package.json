@@ -1,0 +1,23 @@
+{
+  "name": "vinhdo-cli",
+  "version": "1.0.0",
+  "description": "cli to start k8s in local",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyvinh229148/vinhdo-k8s-local-cli.git"
+  },
+  "author": "Vinh Do",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyvinh229148/vinhdo-k8s-local-cli/issues"
+  },
+  "homepage": "https://github.com/duyvinh229148/vinhdo-k8s-local-cli#readme",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}
