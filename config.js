@@ -3,6 +3,9 @@ const path = require('path');
 module.exports = {
   cluster: {
     name: 'vinhdo',
+    cpu: 4,
+    memory: '8192m',
+    kubernetesVersion: 'v1.22.9',
   },
   helmRepositories: [
     {
@@ -15,7 +18,7 @@ module.exports = {
       name: 'redis',
       location: 'bitnami/redis',
       namespace: 'core',
-      version: '16.10.0',
+      version: '17.4.2',
       valueFile: path.resolve(__dirname, 'infrastructure/redis/values.yaml'),
     },
     {
