@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/duyvinh229148/vinhdo-k8s-local-cli#readme",
   "dependencies": {
+    "async": "^3.2.4",
+    "sudo-prompt": "^9.2.1",
     "yargs": "^17.6.2"
   },
   "devDependencies": {
