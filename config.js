@@ -5,7 +5,7 @@ module.exports = {
     name: 'vinhdo',
     cpu: 4,
     memory: '8192m',
-    kubernetesVersion: 'v1.22.9',
+    kubernetesVersion: 'v1.23.0',
   },
   helmRepositories: [
     {
