@@ -13,8 +13,8 @@ const deleteCluster = async (clusterName) => {
 
 const startCluster = async (optionsWithoutDefault) => {
   const options = {
-    clusterName: 'yourrentals',
-    kubernetesVersion: 'v1.19.6',
+    clusterName: 'vinhdo',
+    kubernetesVersion: 'v1.25.0',
     cpu: 4,
     memory: '8192m',
     driver: 'docker',
